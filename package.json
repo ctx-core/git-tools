@@ -29,8 +29,10 @@
 		"exec": "$@",
 		"prepublishOnly": "npm run compile"
 	},
+	"dependencies": {
+		"git-csv-timesheet": "^0.1.5"
+	},
 	"devDependencies": {
-		"git-csv-timesheet": "^0.1.5",
 		"typescript": "^4.1.3"
 	},
 	"publishConfig": {
