@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 4.0.1
+
+### Patch Changes
+
+- fix: git-hours: import 'git-csv-timesheet/bin/timesheet'
+
 ## 3.0.0
 
 ### Major Changes

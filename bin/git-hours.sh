@@ -1,5 +1,6 @@
 #!/bin/sh
-timesheet $@ |
+DIR=$(dirname $0)
+$DIR/timesheet.js $@ |
   awk -F';' '{print $NF}' |
   paste -sd+ |
   bc
