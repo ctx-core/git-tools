@@ -1,31 +1,39 @@
 {
-  "name": "@ctx-core/git-tools",
-  "version": "3.0.0",
-  "description": "git tools for the @ctx-core monorepo",
-  "keywords": [
-    "ctx-core"
-  ],
-  "homepage": "https://github.com/ctx-core/word-segmentation#readme",
-  "bugs": {
-    "url": "https://github.com/ctx-core/word-segmentation/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ctx-core/word-segmentation/issues"
-  },
-  "license": "Apache-2.0",
-  "author": "Brian Takita",
-  "main": "./index.js",
-  "module": "./index.js",
-  "types": "./index.ts",
-  "scripts": {
-    "exec": "$@"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "typescript": "^4.0.3"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+	"name": "@ctx-core/git-tools",
+	"version": "4.0.0",
+	"description": "ctx-core git tools",
+	"keywords": [
+		"ctx-core",
+		"git"
+	],
+	"homepage": "https://github.com/ctx-core/functional#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/functional/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/functional/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
+	"bin": {
+		"git-hours": "bin/git-hours.sh"
+	},
+	"scripts": {
+		"build": "npm run clean && npm run compile",
+		"clean": "rm -f tsconfig.tsbuildinfo",
+		"compile": "./node_modules/.bin/tsc -b",
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
+	},
+	"devDependencies": {
+		"git-csv-timesheet": "^0.1.5",
+		"typescript": "^4.1.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
