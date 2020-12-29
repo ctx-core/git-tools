@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 4.0.2
+
+### Patch Changes
+
+- ctx-core-git-hours alias to git-hours
+
 ## 4.0.1
 
 ### Patch Changes
