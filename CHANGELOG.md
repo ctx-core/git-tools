@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 5.3.1
+
+### Patch Changes
+
+- update dependencies
+
 ## 5.3.0
 
 ### Minor Changes
