@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/git-tools",
-	"version": "5.3.1",
+	"version": "5.4.0",
 	"description": "ctx-core git tools",
 	"keywords": [
 		"ctx-core",
@@ -21,7 +21,8 @@
 	"types": "./dist/index.d.ts",
 	"bin": {
 		"ctx-core-git-hours": "bin/git-hours.sh",
-		"git-hours": "bin/git-hours.sh"
+		"git-hours": "bin/git-hours.sh",
+		"timesheet": "bin/timesheet.js"
 	},
 	"scripts": {
 		"build": "npm run clean && npm run compile",

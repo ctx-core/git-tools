@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 5.4.0
+
+### Minor Changes
+
+- - bin: timesheet
+
 ## 5.3.1
 
 ### Patch Changes
