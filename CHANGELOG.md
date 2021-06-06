@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 5.4.1
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+
 ## 5.4.0
 
 ### Minor Changes
