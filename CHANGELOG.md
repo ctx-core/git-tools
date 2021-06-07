@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 5.4.2
+
+### Patch Changes
+
+- version bump: run build
+
 ## 5.4.1
 
 ### Patch Changes
