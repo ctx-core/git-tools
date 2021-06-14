@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 6.0.0
+
+### Major Changes
+
+- move from dist to src directory
+
 ## 5.4.2
 
 ### Patch Changes
