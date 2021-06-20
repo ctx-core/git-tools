@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 6.0.5
+
+### Patch Changes
+
+- "prepare": "npm run clean && npm run compile"
+
 ## 6.0.4
 
 ### Patch Changes
