@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 6.0.9
+
+### Patch Changes
+
+- dist directory
+
 ## 6.0.8
 
 ### Patch Changes
