@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 7.0.1
+
+### Patch Changes
+
+- 2a6971f80: fix: "type": "module"
+
 ## 7.0.0
 
 ### Major Changes
