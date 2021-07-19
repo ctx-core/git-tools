@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 7.0.11
+
+### Patch Changes
+
+- exports: + "package.json": "./package.json"
+
 ## 7.0.10
 
 ### Patch Changes
