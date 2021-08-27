@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 7.0.14
+
+### Patch Changes
+
+- typescript: ^4.3.5 -> ^4.4.2
+
 ## 7.0.13
 
 ### Patch Changes
