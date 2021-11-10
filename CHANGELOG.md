@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 7.0.17
+
+### Patch Changes
+
+- compile using swc
+
 ## 7.0.16
 
 ### Patch Changes
