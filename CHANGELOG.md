@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 7.0.25
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+
 ## 7.0.24
 
 ### Patch Changes
