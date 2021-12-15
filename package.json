@@ -1,26 +1,26 @@
 {
 	"name": "@ctx-core/git-tools",
-	"version": "7.0.27",
+	"version": "7.0.28",
 	"description": "ctx-core git tools",
 	"keywords": [
 		"ctx-core",
 		"git"
 	],
-	"homepage": "https://github.com/ctx-core/functional#readme",
+	"homepage": "https://github.com/ctx-core/git-tools#readme",
 	"bugs": {
-		"url": "https://github.com/ctx-core/functional/issues"
+		"url": "https://github.com/ctx-core/git-tools/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ctx-core/functional/issues"
+		"url": "https://github.com/ctx-core/git-tools.git"
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
 	"exports": {
 		".": {
-			"types": "./src/index.ts",
-			"import": "./dist/index.js"
+			"import": "./dist/index.js",
+			"types": "./src/index.ts"
 		},
 		"./package.json": "./package.json"
 	},
