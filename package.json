@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/git-tools",
-	"version": "7.0.29",
+	"version": "7.0.30",
 	"description": "ctx-core git tools",
 	"keywords": [
 		"ctx-core",
@@ -20,7 +20,7 @@
 	"exports": {
 		".": {
 			"import": "./dist/index.js",
-			"types": "./src/index.ts"
+			"types": "./dist/index.d.ts"
 		},
 		"./package.json": "./package.json"
 	},
@@ -32,7 +32,9 @@
 	"scripts": {
 		"build": "npm run compile",
 		"clean": "rimraf dist",
-		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
+		"compile": "npm run compile_source && npm run compile_declaration",
+		"compile_source": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
+		"compile_declaration": "tsc src/index.ts --declaration --emitDeclarationOnly --declarationDir dist",
 		"exec": "$@",
 		"prepublishOnly": "npm run clean && npm run build"
 	},
