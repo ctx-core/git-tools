@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/git-tools",
-	"version": "7.0.33",
+	"version": "7.0.34",
 	"description": "ctx-core git tools",
 	"keywords": [
 		"ctx-core",
@@ -17,7 +17,7 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.ts",
+	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
 			"import": "./dist/index.js"
