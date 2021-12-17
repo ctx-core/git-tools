@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 7.0.31
+
+### Patch Changes
+
+- fix: build
+
 ## 7.0.30
 
 ### Patch Changes
