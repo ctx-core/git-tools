@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/git-tools",
-	"version": "7.0.35",
+	"version": "7.0.36",
 	"description": "ctx-core git tools",
 	"keywords": [
 		"ctx-core",
