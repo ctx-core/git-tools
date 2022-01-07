@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/git-tools",
-	"version": "7.0.36",
+	"version": "7.0.37",
 	"description": "ctx-core git tools",
 	"keywords": [
 		"ctx-core",
@@ -44,7 +44,7 @@
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.125",
+		"@swc/core": "^1.2.127",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},

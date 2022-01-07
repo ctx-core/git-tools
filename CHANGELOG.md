@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 7.0.37
+
+### Patch Changes
+
+- @swc/core: ^1.2.125 -> ^1.2.127
+
 ## 7.0.36
 
 ### Patch Changes
