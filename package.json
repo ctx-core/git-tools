@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/git-tools",
-	"version": "7.0.37",
+	"version": "7.0.38",
 	"description": "ctx-core git tools",
 	"keywords": [
 		"ctx-core",
@@ -52,5 +52,6 @@
 		"access": "public",
 		"cache": "~/.npm"
 	},
-	"svelte": "./lib/index.js"
+	"svelte": "./lib/index.js",
+	"sideEffects": false
 }

@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 7.0.38
+
+### Patch Changes
+
+- sideEffects = false
+
 ## 7.0.37
 
 ### Patch Changes
