@@ -28,23 +28,25 @@
 		"timesheet": "bin/timesheet.mjs"
 	},
 	"scripts": {
-		"build": "npm run compile",
-		"clean": "rimraf lib && npm run clean:tsbuildinfo",
-		"clean:tsbuildinfo": "rimraf tsconfig.tsbuildinfo && rimraf lib/**/*.d.ts",
-		"compile": "npm run compile:source && npm run compile:declaration",
-		"compile:source": "swc src --out-dir lib --copy-files --source-maps --config-file .swcrc",
-		"compile:declaration": "npm run clean:tsbuildinfo && tsc --declaration --emitDeclarationOnly --declarationDir lib",
-		"exec": "$@",
-		"prepublishOnly": "npm run clean && npm run build"
+		"build": ":",
+		"clean": ":",
+		"exec": "$@"
 	},
 	"dependencies": {
-		"git-csv-timesheet": "^0.1.5"
 	},
 	"devDependencies": {
-		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.174",
-		"rimraf": "^3.0.2",
-		"typescript": "next"
+		"rimraf": "^3.0.2"
+	},
+	"peerDependencies": {
+		"git-csv-timesheet": "^0.1.5"
+	},
+	"overrides": {
+		"nodegit": "next"
+	},
+	"pnpm": {
+		"overrides": {
+			"nodegit": "next"
+		}
 	},
 	"publishConfig": {
 		"access": "public",
