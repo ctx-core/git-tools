@@ -32,10 +32,10 @@
 		"clean": ":",
 		"exec": "$@"
 	},
-	"dependencies": {
-	},
+	"dependencies": {},
 	"devDependencies": {
-		"rimraf": "^3.0.2"
+		"rimraf": "^3.0.2",
+		"typescript": "next"
 	},
 	"peerDependencies": {
 		"git-csv-timesheet": "^0.1.5"
