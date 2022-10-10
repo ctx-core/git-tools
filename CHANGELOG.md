@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 7.0.40
+
+### Patch Changes
+
+- git-hours: timesheet "$@"
+
 ## 7.0.39
 
 ### Patch Changes
