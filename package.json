@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/git-tools",
-	"version": "7.0.40",
+	"version": "7.0.41",
 	"description": "ctx-core git tools",
 	"keywords": [
 		"ctx-core",
@@ -38,7 +38,7 @@
 		"typescript": "next"
 	},
 	"peerDependencies": {
-		"git-csv-timesheet": "^0.1.5"
+		"git-csv-timesheet": "^0.1.6"
 	},
 	"overrides": {
 		"nodegit": "next"

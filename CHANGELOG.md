@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 7.0.41
+
+### Patch Changes
+
+- git-csv-timesheet: ^0.1.5 -> ^0.1.6
+
 ## 7.0.40
 
 ### Patch Changes
