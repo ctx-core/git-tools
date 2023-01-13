@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 7.0.43
+
+### Patch Changes
+
+- rimraf: ^4.0.1 -> ^4.0.4
+
 ## 7.0.42
 
 ### Patch Changes
