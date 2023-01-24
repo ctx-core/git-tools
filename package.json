@@ -34,7 +34,7 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"rimraf": "^4.1.1",
+		"rimraf": "^4.1.2",
 		"typescript": "next"
 	},
 	"peerDependencies": {
