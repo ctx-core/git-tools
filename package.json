@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/git-tools",
-	"version": "7.0.44",
+	"version": "7.0.45",
 	"description": "ctx-core git tools",
 	"keywords": [
 		"ctx-core",
@@ -34,7 +34,6 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"rimraf": "^4.1.2",
 		"typescript": "next"
 	},
 	"peerDependencies": {
