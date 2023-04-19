@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 7.0.64
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+
 ## 7.0.63
 
 ### Patch Changes
