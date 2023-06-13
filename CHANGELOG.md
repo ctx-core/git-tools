@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 7.0.65
+
+### Patch Changes
+
+- packages.json: - pnpm field
+
 ## 7.0.64
 
 ### Patch Changes
