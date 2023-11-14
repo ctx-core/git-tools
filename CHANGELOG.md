@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 7.1.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+
 ## 7.1.1
 
 ### Patch Changes
