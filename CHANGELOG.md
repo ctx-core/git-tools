@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 7.1.3
+
+### Patch Changes
+
+- package.json: files: + \*.js
+
 ## 7.1.2
 
 ### Patch Changes
