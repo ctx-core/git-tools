@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 7.1.7
+
+### Patch Changes
+
+- tsx: ^4.3.0 -> ^4.4.0
+
 ## 7.1.6
 
 ### Patch Changes
