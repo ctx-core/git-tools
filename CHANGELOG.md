@@ -1,5 +1,11 @@
 # @ctx-core/git-tools
 
+## 7.1.11
+
+### Patch Changes
+
+- package.json: author: url,email
+
 ## 7.1.10
 
 ### Patch Changes

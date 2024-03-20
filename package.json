@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/git-tools",
-	"version": "7.1.10",
+	"version": "7.1.11",
 	"description": "ctx-core git tools",
 	"keywords": [
 		"ctx-core",
@@ -15,7 +15,11 @@
 		"url": "https://github.com/ctx-core/git-tools.git"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-git-tools@briantakita.me"
+	},
 	"type": "module",
 	"types": "./index.d.ts",
 	"exports": {
