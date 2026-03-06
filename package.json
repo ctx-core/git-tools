@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/git-tools",
-	"version": "7.1.12",
+	"version": "7.1.13",
 	"description": "ctx-core git tools",
 	"keywords": [
 		"ctx-core",
@@ -50,8 +50,7 @@
 	"peerDependencies": {
 		"git-csv-timesheet": "^0.1.6"
 	},
-	"overrides": {
-	},
+	"overrides": {},
 	"publishConfig": {
 		"access": "public"
 	},
